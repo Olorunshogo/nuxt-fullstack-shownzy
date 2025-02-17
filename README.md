@@ -36,6 +36,7 @@ yarn dev
 
 # bun
 bun run dev
+
 ```
 
 ## Production
@@ -70,6 +71,11 @@ yarn preview
 
 # bun
 bun run preview
+
 ```
+
+
+## Content
+### Nuxt Fullstack Shownzy
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
