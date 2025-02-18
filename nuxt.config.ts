@@ -1,5 +1,6 @@
 
 import tailwindcss from "@tailwindcss/vite";
+import { defineNuxtConfig } from "nuxt/config";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -12,7 +13,7 @@ export default defineNuxtConfig({
     head: {
       title: 'My application',
       titleTemplate: '%s | youtube.com/@TheAlexLichter'
-    }
+    },
   },
 
   $development: {
@@ -25,6 +26,7 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxtjs/color-mode',
+  //   '@nuxtjs/tailwindcss'
   ],
 
   
