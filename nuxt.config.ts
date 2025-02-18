@@ -7,12 +7,18 @@ export default defineNuxtConfig({
   // compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   compatibilityDate: '2024-10-25',
-  css: ['./assets/css/main.css'],
+  // css: [
+  //   './assets/css/main.css'
+
+  // ],
+  css: [
+    './assets/tailwind.css'    
+  ],
 
   app: {
     head: {
       title: 'My application',
-      titleTemplate: '%s | youtube.com/@TheAlexLichter'
+      titleTemplate: '%s | github.com/olorunshogo'
     },
   },
 
@@ -26,7 +32,7 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxtjs/color-mode',
-  //   '@nuxtjs/tailwindcss'
+    // '@nuxtjs/tailwindcss'
   ],
 
   

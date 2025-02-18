@@ -1,6 +1,6 @@
 
 <script lang="ts" setup>
-  import NavBar from '../components/layout/NavBar.vue';
+  import NavBar from "../components/layouts/NavBar.vue";
 </script>
 
 <template>
@@ -8,9 +8,4 @@
     <NavBar />
     <slot></slot>
   </div>
-
 </template>
-
-<style>
-
-</style>
