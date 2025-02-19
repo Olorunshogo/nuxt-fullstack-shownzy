@@ -10,11 +10,16 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.0.6",
+    "@prisma/client": "^6.4.0",
+    "@tailwindcss/vite": "^4.0.7",
     "nuxt": "^3.13.2",
+    "prisma": "^6.4.0",
     "ui": "^0.2.4",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "prisma": {
+    "schema": "server/database/schema.prisma"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^3.5.2",

@@ -7,12 +7,8 @@ export default defineNuxtConfig({
   // compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   compatibilityDate: '2024-10-25',
-  // css: [
-  //   './assets/css/main.css'
-
-  // ],
   css: [
-    './assets/tailwind.css'    
+    '~/assets/css/main.css'
   ],
 
   app: {
